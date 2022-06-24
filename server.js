@@ -73,7 +73,7 @@ app.get('/api/:alienName', (request, response) => {
     if (aliens[aliensName]) {
         response.json(aliens[aliensName])
     } else {
-        responese.json(aliens['humans'])
+        response.json(aliens['humans'])
     }
 })
 
